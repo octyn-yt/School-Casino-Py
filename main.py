@@ -6,6 +6,7 @@ import time
 
 def main_menu(please):
     print('Your balance is: ', please)
+    time.sleep(5)
     cleanUp()
     gameChoice = input('What game would you like to play? "BlackJack", "Roulette", "Horse Racing" or "Lucky Slots?"')
     if gameChoice == 'BlackJack':
